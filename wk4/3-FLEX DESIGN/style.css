@@ -1,0 +1,123 @@
+
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display:flex ;
+    justify-items: center; 
+    padding: 20px;
+
+}
+
+
+.box1{
+    background-color: chocolate;
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+}
+.box2{
+    background-color: rgb(21, 106, 109);
+    padding: 40px;
+}
+.box3{
+    background-color: rgb(5, 53, 54);
+    padding: 40px;
+}
+.para{
+    font: size 20px;;
+    color: aliceblue;
+    margin-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.f1{
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+.img{
+    margin-bottom: 30px;/*To push the images down */
+}
+.button1{
+    margin-top: 150px;/*To push the buttons down*/
+    margin-left: 50px;/*To push the forward leftwise*/
+    background-color: chocolate;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px;/*to make the button big on the inside*/
+    
+    
+
+}
+.button2{
+    margin-top: 150px;
+    margin-left: 50px;/*To push the forward leftwise*/
+    background-color:rgb(21, 106, 109);
+    border: solid white;
+    border-radius: 25px;
+    padding: 15px;
+}
+.button3{
+    margin-top: 150px;
+    margin-left: 50px;/*To push the forward leftwise*/
+    background-color: rgb(5, 53, 54);
+    border: solid white;
+    border-radius: 25px;
+    padding: 15px;
+   
+    
+}
+
+.ref{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;/*to remove the hyperlink*/
+}
+#alt{
+    font-family:  serif ;
+  color: white;
+  font-size: 10px;
+}
+.parent{
+    display: grid;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 100px 350px 200px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.child1{
+   
+    background-color: rgb(12, 235, 45);
+  
+    
+    
+}
+.child2{
+    
+    background-color: rgb(212, 87, 14);
+}
+.child3{
+    background-color: black;
+}
+
+.child4{
+    background-color: rgb(221, 29, 29);
+}
+.child5{
+    background-color: aqua;
+}
